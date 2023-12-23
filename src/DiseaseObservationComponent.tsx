@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import ObservationService from './ObservationService.tsx'
 
 //Componente principal que cria o html e estiliza com tailwind css e chama as api's do service.
-
+//Docker-compose é para o banco de dados e dcm4chee
 function DiseaseObservationComponent() {
   const [nomePaciente, setNomePaciente] = useState('');
   const [studyId, setStudyId] = useState('');
